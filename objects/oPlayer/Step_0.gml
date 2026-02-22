@@ -26,3 +26,8 @@ if (x_speed != 0 and  y_speed !=0 ) {
 	y_speed*=accurate_square_root_of_two_divided_by_two
 }
 move_and_collide(x_speed, y_speed, oSolid)
+
+if (player_health == 0) {
+	show_message("dead")
+	game_end("THIS IS A PLACEHOLDER FOR DIEYING SCREEN RAAAH")
+}

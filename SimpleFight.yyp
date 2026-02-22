@@ -31,6 +31,8 @@
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"soundGunShoot","path":"sounds/soundGunShoot/soundGunShoot.yy",},},
+    {"id":{"name":"soundPlayerHurt","path":"sounds/soundPlayerHurt/soundPlayerHurt.yy",},},
+    {"id":{"name":"soundSlimeHurt","path":"sounds/soundSlimeHurt/soundSlimeHurt.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},

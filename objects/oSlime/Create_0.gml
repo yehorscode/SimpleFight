@@ -1,1 +1,1 @@
-slime_health = 40
+slime_health = 30
