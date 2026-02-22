@@ -1,2 +1,2 @@
-mov_speed = 1
+mov_speed = 0.7
 mp_potential_step(oPlayer.x, oPlayer.y, (mov_speed), true)
