@@ -8,3 +8,6 @@ if (instance_exists(my_gun)) {
 	my_gun.x = x
 	my_gun.y = y
 }
+if (player_health==0) {
+	room_goto(dead)
+}

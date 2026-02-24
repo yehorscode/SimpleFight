@@ -1,0 +1,1 @@
+all_slimes_defeated = false

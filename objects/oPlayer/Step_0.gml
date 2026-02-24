@@ -27,11 +27,6 @@ if (x_speed != 0 and  y_speed !=0 ) {
 }
 move_and_collide(x_speed, y_speed, oSolid)
 
-if (player_health == 0) {
-	show_message("dead")
-	game_end("THIS IS A PLACEHOLDER FOR DIEYING SCREEN RAAAH")
-}
-
 if (instance_exists(heart_3)) {
     heart_3.visible = (player_health > 60);
 }
@@ -43,3 +38,4 @@ if (instance_exists(heart_2)) {
 if (instance_exists(heart_1)) {
     heart_1.visible = (player_health > 0);
 }
+
