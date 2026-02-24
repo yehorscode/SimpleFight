@@ -31,3 +31,15 @@ if (player_health == 0) {
 	show_message("dead")
 	game_end("THIS IS A PLACEHOLDER FOR DIEYING SCREEN RAAAH")
 }
+
+if (instance_exists(heart_3)) {
+    heart_3.visible = (player_health > 60);
+}
+
+if (instance_exists(heart_2)) {
+    heart_2.visible = (player_health > 30);
+}
+
+if (instance_exists(heart_1)) {
+    heart_1.visible = (player_health > 0);
+}
